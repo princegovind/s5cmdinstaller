@@ -2,8 +2,6 @@
 #Created by Govind
 if [ "$1" = "-e" ]; then
 
-
-
 		echo -e "\n++++++++\nBucket endpoint configure\n++++++++"
 		echo -e "Enter your bucket's Region. The complete endpoint is {REGION}.digitaloceanspaces.com. REGION is Bucket region like nyc3, fra1, sgp1."
 		read new_region
@@ -17,11 +15,6 @@ if [ "$1" = "-e" ]; then
 		fi
 		echo -e "\n\ns5cmd version $(s5cmd version) Installed\n\n"
 		exit 0
-
-
-
-
-
 
 else
 	echo -e "Installation running in $(pwd)"
